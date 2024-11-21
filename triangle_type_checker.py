@@ -8,7 +8,7 @@ if x + y <= z or y + z <= x or z + x <= y:
 else:
     if x == y == z:
         print('This is an equilateral triangle.\nThe three sides and three angles are equal.')
-    elif x == y == z or z == x:
+    elif x == y or y == z or z == x:
         print('This is an isoceles triangle.\nTwo sides have equal lengths.')
     else:
         print('This is a scalene triangle.\nThree sides and three angles have different lengths')
